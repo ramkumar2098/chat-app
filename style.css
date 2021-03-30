@@ -1,0 +1,71 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.alert {
+  display: block;
+  text-align: center;
+}
+
+.messages {
+  position: absolute;
+  bottom: 60px;
+  width: 100%;
+  overflow: auto;
+  max-height: 90%;
+}
+
+.message-container {
+  display: flex;
+  margin-top: 10px;
+  padding: 0 7px;
+}
+
+.message-text {
+  max-width: 75%;
+  line-break: anywhere;
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 3px 13px;
+  border-radius: 3px;
+}
+
+.form {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 10px 0;
+}
+
+.form > div {
+  display: flex;
+  padding: 0 10px;
+}
+
+.message-field {
+  width: 100%;
+  outline: 0;
+  border: 0;
+  margin-right: 10px;
+  border-radius: 4px;
+  padding: 0 12px;
+}
+
+.send-btn {
+  color: #fff;
+  border: 0;
+  outline: 0;
+  background-color: #333;
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 4px;
+  padding: 0 12px;
+  height: 35px;
+}
